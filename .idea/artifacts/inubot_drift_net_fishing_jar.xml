@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="inubot-drift-net-fishing:jar">
+    <output-path>$USER_HOME$/inubot/scripts</output-path>
+    <root id="archive" name="inubot-drift-net-fishing.jar">
+      <element id="module-output" name="inubot-drift-net-fishing" />
+    </root>
+  </artifact>
+</component>
