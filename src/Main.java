@@ -23,9 +23,7 @@ public class Main extends TaskScript {
     @PaintBinding(value = "Caught fish", rate = true)
     private int caught = 0;
     @PaintBinding("Experience")
-    private final Skill hunter = Skill.HUNTER;
-    @PaintBinding("Experience")
-    private final Skill fishing = Skill.FISHING;
+    private final Skill[] hunter = {Skill.HUNTER, Skill.FISHING};
 
     @Override
     public Class<? extends Task>[] tasks() {
